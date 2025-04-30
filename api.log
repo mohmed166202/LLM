@@ -1,0 +1,198 @@
+2025-04-23 11:47:27,064 INFO Use pytorch device_name: cpu
+2025-04-23 11:47:27,065 INFO Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-23 11:47:27,069 DEBUG Starting new HTTPS connection (1): huggingface.co:443
+2025-04-23 11:47:27,302 DEBUG https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/11" 200 0
+2025-04-23 11:47:27,465 DEBUG https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json HTTP/11" 200 0
+2025-04-23 11:47:27,622 DEBUG https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md HTTP/11" 200 0
+2025-04-23 11:47:27,782 DEBUG https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/11" 200 0
+2025-04-23 11:47:27,983 DEBUG https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json HTTP/11" 200 0
+2025-04-23 11:47:28,166 DEBUG https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json HTTP/11" 200 0
+2025-04-23 11:47:29,058 DEBUG https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json HTTP/11" 200 0
+2025-04-23 11:47:29,307 DEBUG https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2/revision/main HTTP/11" 200 6761
+2025-04-23 11:47:29,505 DEBUG https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2 HTTP/11" 200 6761
+2025-04-23 11:47:29,579 INFO Starting Uvicorn server
+2025-04-23 11:47:29,586 DEBUG Using proactor: IocpProactor
+2025-04-23 11:47:38,969 INFO Received search request: book about management
+2025-04-23 11:47:39,464 DEBUG Generated embedding for text: book about management
+2025-04-23 11:47:39,464 INFO Checking for existing FAISS index
+2025-04-23 11:47:39,464 INFO Building FAISS index from database
+2025-04-23 11:47:39,596 INFO Successfully connected to database
+2025-04-23 11:47:51,980 INFO Fetched 12040 products from database
+2025-04-23 11:47:59,246 INFO Prepared 24080 embeddings for FAISS
+2025-04-23 11:48:24,529 INFO Use pytorch device_name: cpu
+2025-04-23 11:48:24,529 INFO Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-23 11:48:24,540 DEBUG Starting new HTTPS connection (1): huggingface.co:443
+2025-04-23 11:48:24,751 DEBUG https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/11" 200 0
+2025-04-23 11:48:24,930 DEBUG https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json HTTP/11" 200 0
+2025-04-23 11:48:25,089 DEBUG https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md HTTP/11" 200 0
+2025-04-23 11:48:25,243 DEBUG https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/11" 200 0
+2025-04-23 11:48:25,414 DEBUG https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json HTTP/11" 200 0
+2025-04-23 11:48:25,567 DEBUG https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json HTTP/11" 200 0
+2025-04-23 11:48:26,578 DEBUG https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json HTTP/11" 200 0
+2025-04-23 11:48:26,844 DEBUG https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2/revision/main HTTP/11" 200 6761
+2025-04-23 11:48:27,012 DEBUG https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2 HTTP/11" 200 6761
+2025-04-23 11:48:27,132 INFO Starting Uvicorn server
+2025-04-23 11:48:27,150 DEBUG Using proactor: IocpProactor
+2025-04-23 11:48:54,099 INFO Received search request: book about management
+2025-04-23 11:48:54,491 DEBUG Generated embedding for text: book about management
+2025-04-23 11:48:54,491 INFO Checking for existing FAISS index
+2025-04-23 11:48:54,491 INFO Building FAISS index from database
+2025-04-23 11:48:54,663 INFO Successfully connected to database
+2025-04-23 11:49:07,793 INFO Fetched 12040 products from database
+2025-04-23 11:49:17,625 INFO Prepared 24080 embeddings for FAISS
+2025-04-23 12:29:55,261 INFO Use pytorch device_name: cpu
+2025-04-23 12:29:55,261 INFO Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-23 12:29:55,265 DEBUG Starting new HTTPS connection (1): huggingface.co:443
+2025-04-23 12:29:55,866 DEBUG https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/11" 200 0
+2025-04-23 12:29:56,019 DEBUG https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json HTTP/11" 200 0
+2025-04-23 12:29:56,183 DEBUG https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md HTTP/11" 200 0
+2025-04-23 12:29:56,332 DEBUG https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/11" 200 0
+2025-04-23 12:29:56,480 DEBUG https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json HTTP/11" 200 0
+2025-04-23 12:29:56,639 DEBUG https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json HTTP/11" 200 0
+2025-04-23 12:29:57,422 DEBUG https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json HTTP/11" 200 0
+2025-04-23 12:29:57,657 DEBUG https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2/revision/main HTTP/11" 200 6761
+2025-04-23 12:29:57,821 DEBUG https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2 HTTP/11" 200 6761
+2025-04-23 12:29:57,928 INFO Starting Uvicorn server
+2025-04-23 12:29:57,937 DEBUG Using proactor: IocpProactor
+2025-04-23 12:30:33,424 INFO Received search request: book about management
+2025-04-23 12:30:33,904 DEBUG Generated embedding for text: book about management
+2025-04-23 12:30:33,905 INFO Checking for existing FAISS index
+2025-04-23 12:30:33,905 INFO Building FAISS index from database
+2025-04-23 12:32025-04-23 12:10:00,113 INFO Use pytorch device_name: cpu
+2025-04-23 12:10:00,114 INFO Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-23 12:10:00,119 DEBUG Starting new HTTPS connection (1): huggingface.co:443
+2025-04-23 12:10:00,325 DEBUG https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/11" 200 0
+2025-04-23 12:10:00,485 DEBUG https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json HTTP/11" 200 0
+2025-04-23 12:10:00,985 DEBUG https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md HTTP/11" 200 0
+2025-04-23 12:10:01,143 DEBUG https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/11" 200 0
+2025-04-23 12:10:01,299 DEBUG https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json HTTP/11" 200 0
+2025-04-23 12:10:01,456 DEBUG https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json HTTP/11" 200 0
+2025-04-23 12:10:02,209 DEBUG https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json HTTP/11" 200 0
+2025-04-23 12:10:02,457 DEBUG https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2/revision/main HTTP/11" 200 6761
+2025-04-23 12:10:02,629 DEBUG https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2 HTTP/11" 200 6761
+2025-04-23 12:10:02,797 INFO Starting Uvicorn server
+2025-04-23 12:10:02,809 DEBUG Using proactor: IocpProactor
+2025-04-23 12:10:17,564 INFO Received search request: book about management
+2025-04-23 12:10:17,942 DEBUG Generated embedding for text: book about management
+2025-04-23 12:10:17,942 INFO Checking for existing FAISS index
+2025-04-23 12:10:17,942 INFO Building FAISS index from database
+2025-04-23 12:10:18,096 INFO Successfully connected to database
+2025-04-23 12:10:31,058 INFO Fetched 12040 products from database
+2025-04-23 12:10:41,083 INFO Preparing 24080 embeddings for FAISS
+0:34,046 INFO Successfully connected to database
+2025-04-23 12:30:47,329 INFO Fetched 12040 products from database
+2025-04-23 12:30:57,260 INFO Validating 24080 embeddings
+2025-04-23 12:31:01,243 INFO Validated 24080 embeddings
+2025-04-23 12:31:01,243 INFO Created FAISS HNSW index
+2025-04-29 11:11:00,617 INFO Use pytorch device_name: cpu
+2025-04-29 11:11:00,617 INFO Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-29 11:11:00,624 DEBUG Starting new HTTPS connection (1): huggingface.co:443
+2025-04-29 11:11:00,881 DEBUG https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/11" 200 0
+2025-04-29 11:11:01,093 DEBUG https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json HTTP/11" 200 0
+2025-04-29 11:11:01,412 DEBUG https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md HTTP/11" 200 0
+2025-04-29 11:11:01,603 DEBUG https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/11" 200 0
+2025-04-29 11:11:01,763 DEBUG https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json HTTP/11" 200 0
+2025-04-29 11:11:01,964 DEBUG https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json HTTP/11" 200 0
+2025-04-29 11:11:03,125 DEBUG https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json HTTP/11" 200 0
+2025-04-29 11:11:03,377 DEBUG https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2/revision/main HTTP/11" 200 6766
+2025-04-29 11:11:03,557 DEBUG https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2 HTTP/11" 200 6766
+2025-04-29 11:11:03,747 INFO Starting Uvicorn server
+2025-04-29 11:11:03,754 DEBUG Using proactor: IocpProactor
+2025-04-29 11:15:06,008 INFO Received search request: book about management
+2025-04-29 11:15:06,499 DEBUG Generated embedding for text: book about management
+2025-04-29 11:15:06,499 INFO Checking for existing FAISS index
+2025-04-29 11:15:06,519 INFO Loaded FAISS index from faiss_index.bin
+2025-04-29 11:15:06,525 INFO Loaded product info from product_info.json
+2025-04-29 11:15:06,525 INFO Performing semantic search
+2025-04-29 11:15:06,560 DEBUG FAISS search returned 10 results
+2025-04-29 11:15:06,562 INFO Returning 3 search results
+2025-04-29 11:15:06,562 INFO Requesting recommendations from Gemini API
+2025-04-29 11:15:06,562 INFO Requesting response from Gemini API
+2025-04-29 11:15:06,563 DEBUG Starting new HTTPS connection (1): generativelanguage.googleapis.com:443
+2025-04-29 11:15:12,047 DEBUG https://generativelanguage.googleapis.com:443 "POST /v1beta/models/gemini-2.0-flash:generateContent?key=AIzaSyCIMjhmozUrbSLRT2jtEl9GEoTlnyMUS94 HTTP/11" 200 None
+2025-04-29 11:15:12,053 INFO Received response from Gemini API
+2025-04-29 11:15:12,054 INFO Received recommendations from Gemini API
+2025-04-29 11:15:48,569 INFO Received search request: i want a book on cybersecurity and machine learning
+2025-04-29 11:15:48,587 DEBUG Generated embedding for text: i want a book on cybersecurity and machine learning
+2025-04-29 11:15:48,587 INFO Checking for existing FAISS index
+2025-04-29 11:15:48,588 INFO Loaded FAISS index from faiss_index.bin
+2025-04-29 11:15:48,593 INFO Loaded product info from product_info.json
+2025-04-29 11:15:48,593 INFO Performing semantic search
+2025-04-29 11:15:48,593 DEBUG FAISS search returned 10 results
+2025-04-29 11:15:48,593 INFO Returning 3 search results
+2025-04-29 11:15:48,594 INFO Requesting recommendations from Gemini API
+2025-04-29 11:15:48,594 INFO Requesting response from Gemini API
+2025-04-29 11:15:48,595 DEBUG Starting new HTTPS connection (1): generativelanguage.googleapis.com:443
+2025-04-29 11:15:50,105 DEBUG https://generativelanguage.googleapis.com:443 "POST /v1beta/models/gemini-2.0-flash:generateContent?key=AIzaSyCIMjhmozUrbSLRT2jtEl9GEoTlnyMUS94 HTTP/11" 200 None
+2025-04-29 11:15:50,107 INFO Received response from Gemini API
+2025-04-29 11:15:50,107 INFO Received recommendations from Gemini API
+2025-04-29 11:16:42,253 INFO Received search request: have u delvery ?
+2025-04-29 11:16:42,265 DEBUG Generated embedding for text: have u delvery ?
+2025-04-29 11:16:42,266 INFO Checking for existing FAISS index
+2025-04-29 11:16:42,267 INFO Loaded FAISS index from faiss_index.bin
+2025-04-29 11:16:42,271 INFO Loaded product info from product_info.json
+2025-04-29 11:16:42,271 INFO Performing semantic search
+2025-04-29 11:16:42,271 DEBUG FAISS search returned 10 results
+2025-04-29 11:16:42,271 INFO Returning 3 search results
+2025-04-29 11:16:42,271 INFO Requesting recommendations from Gemini API
+2025-04-29 11:16:42,271 INFO Requesting response from Gemini API
+2025-04-29 11:16:42,273 DEBUG Starting new HTTPS connection (1): generativelanguage.googleapis.com:443
+2025-04-29 11:16:44,714 DEBUG https://generativelanguage.googleapis.com:443 "POST /v1beta/models/gemini-2.0-flash:generateContent?key=AIzaSyCIMjhmozUrbSLRT2jtEl9GEoTlnyMUS94 HTTP/11" 200 None
+2025-04-29 11:16:44,715 INFO Received response from Gemini API
+2025-04-29 11:16:44,715 INFO Received recommendations from Gemini API
+2025-04-29 11:17:02,414 INFO Received search request: have u delvery ?
+2025-04-29 11:17:02,426 DEBUG Generated embedding for text: have u delvery ?
+2025-04-29 11:17:02,426 INFO Checking for existing FAISS index
+2025-04-29 11:17:02,427 INFO Loaded FAISS index from faiss_index.bin
+2025-04-29 11:17:02,429 INFO Loaded product info from product_info.json
+2025-04-29 11:17:02,429 INFO Performing semantic search
+2025-04-29 11:17:02,429 DEBUG FAISS search returned 10 results
+2025-04-29 11:17:02,429 INFO Returning 3 search results
+2025-04-29 11:17:02,429 INFO Requesting recommendations from Gemini API
+2025-04-29 11:17:02,429 INFO Requesting response from Gemini API
+2025-04-29 11:17:02,431 DEBUG Starting new HTTPS connection (1): generativelanguage.googleapis.com:443
+2025-04-29 11:17:05,197 DEBUG https://generativelanguage.googleapis.com:443 "POST /v1beta/models/gemini-2.0-flash:generateContent?key=AIzaSyCIMjhmozUrbSLRT2jtEl9GEoTlnyMUS94 HTTP/11" 200 None
+2025-04-29 11:17:05,197 INFO Received response from Gemini API
+2025-04-29 11:17:05,197 INFO Received recommendations from Gemini API
+2025-04-29 11:17:27,315 INFO Received search request: good morning
+2025-04-29 11:17:27,325 DEBUG Generated embedding for text: good morning
+2025-04-29 11:17:27,325 INFO Checking for existing FAISS index
+2025-04-29 11:17:27,327 INFO Loaded FAISS index from faiss_index.bin
+2025-04-29 11:17:27,331 INFO Loaded product info from product_info.json
+2025-04-29 11:17:27,331 INFO Performing semantic search
+2025-04-29 11:17:27,331 DEBUG FAISS search returned 10 results
+2025-04-29 11:17:27,331 INFO Returning 3 search results
+2025-04-29 11:17:27,331 INFO Requesting recommendations from Gemini API
+2025-04-29 11:17:27,331 INFO Requesting response from Gemini API
+2025-04-29 11:17:27,332 DEBUG Starting new HTTPS connection (1): generativelanguage.googleapis.com:443
+2025-04-29 11:17:29,034 DEBUG https://generativelanguage.googleapis.com:443 "POST /v1beta/models/gemini-2.0-flash:generateContent?key=AIzaSyCIMjhmozUrbSLRT2jtEl9GEoTlnyMUS94 HTTP/11" 200 None
+2025-04-29 11:17:29,035 INFO Received response from Gemini API
+2025-04-29 11:17:29,035 INFO Received recommendations from Gemini API
+2025-04-29 11:18:33,398 INFO Received search request: i want a book on c++
+2025-04-29 11:18:33,410 DEBUG Generated embedding for text: i want a book on c++
+2025-04-29 11:18:33,410 INFO Checking for existing FAISS index
+2025-04-29 11:18:33,412 INFO Loaded FAISS index from faiss_index.bin
+2025-04-29 11:18:33,414 INFO Loaded product info from product_info.json
+2025-04-29 11:18:33,414 INFO Performing semantic search
+2025-04-29 11:18:33,414 DEBUG FAISS search returned 10 results
+2025-04-29 11:18:33,415 INFO Returning 3 search results
+2025-04-29 11:18:33,415 INFO Requesting recommendations from Gemini API
+2025-04-29 11:18:33,415 INFO Requesting response from Gemini API
+2025-04-29 11:18:33,416 DEBUG Starting new HTTPS connection (1): generativelanguage.googleapis.com:443
+2025-04-29 11:18:34,753 DEBUG https://generativelanguage.googleapis.com:443 "POST /v1beta/models/gemini-2.0-flash:generateContent?key=AIzaSyCIMjhmozUrbSLRT2jtEl9GEoTlnyMUS94 HTTP/11" 200 None
+2025-04-29 11:18:34,754 INFO Received response from Gemini API
+2025-04-29 11:18:34,754 INFO Received recommendations from Gemini API
+2025-04-29 11:33:57,975 INFO Received search request: an advanced book on c# with lower pages as much as u can 
+2025-04-29 11:33:57,996 DEBUG Generated embedding for text: an advanced book on c# with lower pages as much as u can 
+2025-04-29 11:33:57,996 INFO Checking for existing FAISS index
+2025-04-29 11:33:57,997 INFO Loaded FAISS index from faiss_index.bin
+2025-04-29 11:33:58,002 INFO Loaded product info from product_info.json
+2025-04-29 11:33:58,003 INFO Performing semantic search
+2025-04-29 11:33:58,003 DEBUG FAISS search returned 10 results
+2025-04-29 11:33:58,003 INFO Returning 3 search results
+2025-04-29 11:33:58,003 INFO Requesting recommendations from Gemini API
+2025-04-29 11:33:58,003 INFO Requesting response from Gemini API
+2025-04-29 11:33:58,005 DEBUG Starting new HTTPS connection (1): generativelanguage.googleapis.com:443
+2025-04-29 11:34:03,258 DEBUG https://generativelanguage.googleapis.com:443 "POST /v1beta/models/gemini-2.0-flash:generateContent?key=AIzaSyCIMjhmozUrbSLRT2jtEl9GEoTlnyMUS94 HTTP/11" 200 None
+2025-04-29 11:34:03,260 INFO Received response from Gemini API
+2025-04-29 11:34:03,261 INFO Received recommendations from Gemini API
